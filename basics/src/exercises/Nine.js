@@ -34,7 +34,7 @@ function Nine() {
 
   // No need to touch code below
   return (
-    <div>
+    <>
       <h1>Challenge: Given the url above, make this app fetch the data and display them in the browser</h1>
       <h2>User Data</h2>
       <p>
@@ -53,7 +53,7 @@ function Nine() {
         <strong>Phone: </strong>
         {userData.phone || "(Need to populate phone here)"}
       </p>
-    </div>
+    </>
   );
 }
 

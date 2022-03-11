@@ -6,13 +6,13 @@ const users = [
 
 function Two() {
   return (
-    <div>
+    <>
       <h1>Challenge: Display all users to the browser</h1>
       <h3>User names</h3>
       {
         users.map(user => <li key={user.id}>{user.name}</li>)
       }
-    </div>
+    </>
   );
 }
 
